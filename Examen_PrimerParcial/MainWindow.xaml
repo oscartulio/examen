@@ -22,7 +22,8 @@
         <TextBox  Height="20" Text="{Binding txtHorasTrabajadas, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
         <Label Content="Pago por Hora Extra" HorizontalAlignment="Center"/>
         <TextBox  Height="20" Text="{Binding txtPagoHoraExtra, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
-        
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="33" Margin="345,0,0,0" Width="96"/>
+
 
     </StackPanel>
 
