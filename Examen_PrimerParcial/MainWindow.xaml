@@ -21,7 +21,7 @@
         <Label Content="Horas trabajadas:" HorizontalAlignment="Center"/>
         <TextBox  Height="20" Text="{Binding txtHorasTrabajadas, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
         <Label Content="Pago por Hora Extra" HorizontalAlignment="Center"/>
-        <TextBox  Height="20" Text="{Binding txt, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <TextBox  Height="20" Text="{Binding txtPagoHoraExtra, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
         
 
     </StackPanel>
