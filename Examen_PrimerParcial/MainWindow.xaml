@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Examen_PrimerParcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Planilla" Height="720" Width="815">
 
-    <StackPanel >
+    <StackPanel Margin="0,0,-8,0" HorizontalAlignment="Left" Height="700" Width="815" >
         <Label Content="Pago Planilla 2019" HorizontalAlignment="Center" FontFamily="arial" FontSize="20"></Label>
 
         <Label Content="Nombre del empleado:" HorizontalAlignment="Center"/>
@@ -20,9 +20,18 @@
         <TextBox  Height="20" Text="{Binding txtPagoHora, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
         <Label Content="Horas trabajadas:" HorizontalAlignment="Center"/>
         <TextBox  Height="20" Text="{Binding txtHorasTrabajadas, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
-        <Label Content="Pago por Hora Extra" HorizontalAlignment="Center"/>
+        <Label Content="Pago por Hora Extra:" HorizontalAlignment="Center"/>
         <TextBox  Height="20" Text="{Binding txtPagoHoraExtra, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="33" Margin="345,0,0,0" Width="96"/>
+        <Button x:Name="btncalcular" Content="Calcular" Height="28" Margin="370,20,360,0"/>
+        <Label FontFamily="arial" FontSize="19" Content="Total"  Margin="370,5,360,0" HorizontalAlignment="Center" ></Label>
+        <Label Content="Sueldo Sin deduccion:" HorizontalAlignment="Center"/>
+        <TextBox  Height="20" Text="{Binding txtSueldoSinDeduccion, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <Label Content="Sueldo Sin deduccion:" HorizontalAlignment="Center"/>
+        <TextBox  Height="20" Text="{Binding txtDeducciones, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <Label Content="Deducciones:" HorizontalAlignment="Center"/>
+        <TextBox  Height="20" Text="{Binding txtdeducciones2, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
+        <Label Content="Sueldo Total::" HorizontalAlignment="Center"/>
+        <TextBox  Height="20" Text="{Binding txtSueldoNeto, Mode=TwoWay}" Margin="0,0,308,0" RenderTransformOrigin="0.51,0.5" Width="176" VerticalAlignment="Top" HorizontalAlignment="Right" />
 
 
     </StackPanel>
